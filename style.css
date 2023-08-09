@@ -47,6 +47,12 @@ header {
 
 label input {display: none;}
 
+label {cursor: pointer;}
+
+input[type="radio"]:checked + .radio {
+    border-bottom: 5px solid var(--button);
+}
+
 .button {
     grid-area: button;
     all: unset;
@@ -227,6 +233,8 @@ main {
         background-image: url(./assets/assets/menu-buguer-close.svg);
     }
 
+    .hamburger {cursor: pointer;}
+
     body.open header {
         grid-template-areas:
         "logo hamburguer"
@@ -256,6 +264,7 @@ main {
 
    body.open input[type="radio"]:checked + .radio {
         border-left: 5px solid var(--button);
+        border-bottom: none;
         font-weight: 700;
         padding: 15px 25px; /*avoids horizontal displacement*/
     }
