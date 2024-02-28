@@ -46,11 +46,10 @@ header {
     font-size: 14px;
     padding-left: 128px;
     margin-inline: 50px;
+    cursor: pointer;
 }
 
 label input {display: none;}
-
-label {cursor: pointer;}
 
 input[type="radio"]:checked + .radio {
     border-bottom: 5px solid var(--button);
