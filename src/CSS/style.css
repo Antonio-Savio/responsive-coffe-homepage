@@ -46,6 +46,9 @@ header {
     font-size: 14px;
     padding-left: 128px;
     margin-inline: 50px;
+}
+
+div.radio{
     cursor: pointer;
 }
 
