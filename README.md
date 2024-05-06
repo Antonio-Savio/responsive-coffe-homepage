@@ -1,4 +1,4 @@
-# Responsive Coffee Homepage
+<h1 align="center">Responsive Coffee Homepage</h1>
 This is a solution for a challenge of Discover Rocketseat's course. It's about a coffee brand homepage with a burger menu in mobile version.
 
 ## Desktop Overview 🖳
